@@ -22,16 +22,16 @@ $(call inherit-product-if-exists, $(SRC_TARGET_DIR)/product/embedded.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-# Inherit from Infinix-X5511-13M device
-$(call inherit-product, device/infinix/Infinix-X5511-13M/device.mk)
+# Inherit from ix5511B device
+$(call inherit-product, device/infinix/ix5511B/device.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := Infinix-X5511-13M
-PRODUCT_NAME := omni_Infinix-X5511-13M
+PRODUCT_DEVICE := ix5511B
+PRODUCT_NAME := omni_ix5511B
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix HOT 4 Pro
 PRODUCT_MANUFACTURER := infinix

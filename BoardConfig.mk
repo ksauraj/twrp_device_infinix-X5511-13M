@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/infinix/Infinix-X5511-13M
+DEVICE_PATH := device/infinix/ix5511B
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -37,7 +37,7 @@ TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Infinix-X5511-13M
+TARGET_OTA_ASSERT_DEVICE := ix5511B
 
 # Bootloader"
 TARGET_BOOTLOADER_BOARD_NAME := CY-X5511-H3716
@@ -65,8 +65,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/infinix/Infinix-X5511-13M
-TARGET_KERNEL_CONFIG := Infinix-X5511-13M_defconfig
+TARGET_KERNEL_SOURCE := kernel/infinix/ix5511B
+TARGET_KERNEL_CONFIG := ix5511B_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := mt6737m

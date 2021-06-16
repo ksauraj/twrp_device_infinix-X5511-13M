@@ -17,4 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_Infinix-X5511-13M.mk
+     $(LOCAL_DIR)/omni_ix5511B.mk

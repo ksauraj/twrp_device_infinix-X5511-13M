@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_Infinix-X5511-13M-userdebug
-add_lunch_combo omni_Infinix-X5511-13M-eng
+add_lunch_combo omni_ix5511B-userdebug
+add_lunch_combo omni_ix5511B-eng

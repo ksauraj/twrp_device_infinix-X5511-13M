@@ -16,5 +16,5 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/infinix/Infinix-X5511-13M
+LOCAL_PATH := device/infinix/ix5511B
 

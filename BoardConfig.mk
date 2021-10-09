@@ -72,7 +72,7 @@ TARGET_KERNEL_CONFIG := ix5511B_defconfig
 TARGET_BOARD_PLATFORM := mt6737m
 
 # LZMA compression for recovery's & kernel ramdisk....
-BOARD_CUSTOM_BOOTIMG_MK := device/vendor_name/device_name/custombootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/infinix/ix5511B/custombootimg.mk
 BOARD_CANT_BUILD_RECOVERY_FROM_BOOT_PATCH := true
 
 # Hack: prevent anti rollback
